@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+#countLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10em;
+}
+#btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  text-align: center;
+}
+.buttons {
+  padding: 20px;
+  font: 1.5em;
+  border-style: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: hsl(31, 100%, 50%);
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.buttons:hover {
+  background-color: hsl(31, 96%, 28%);
+}
